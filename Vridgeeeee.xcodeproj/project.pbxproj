@@ -16,6 +16,14 @@
 		3D1B9A29250F3FC200FBC3C4 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B9A28250F3FC200FBC3C4 /* RankingViewController.swift */; };
 		3D1B9A2B250F3FC900FBC3C4 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B9A2A250F3FC900FBC3C4 /* MyPageViewController.swift */; };
 		3D1B9A31250F42E300FBC3C4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B9A30250F42E300FBC3C4 /* Extension.swift */; };
+		3D1B9A33250F460500FBC3C4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B9A32250F460500FBC3C4 /* LoginViewController.swift */; };
+		3D1B9A35250F460C00FBC3C4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B9A34250F460C00FBC3C4 /* SignUpViewController.swift */; };
+		3D1B9A39250F476600FBC3C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D1B9A38250F476600FBC3C4 /* GoogleService-Info.plist */; };
+		3D1B9A3C250F56BE00FBC3C4 /* Sharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B9A3B250F56BE00FBC3C4 /* Sharing.swift */; };
+		3D1B9A3E250F62A100FBC3C4 /* AppleLoginDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B9A3D250F62A100FBC3C4 /* AppleLoginDetailViewController.swift */; };
+		3D1B9A40250F72D200FBC3C4 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B9A3F250F72D200FBC3C4 /* UserDataModel.swift */; };
+		3D1B9A422510908400FBC3C4 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B9A412510908400FBC3C4 /* PostViewController.swift */; };
+		3D1B9A482510BC1B00FBC3C4 /* NickNameCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B9A472510BC1B00FBC3C4 /* NickNameCheck.swift */; };
 		861233E2819424249EC9F733 /* Pods_Vridgeeeee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2662ED045C5CE97D0E176C /* Pods_Vridgeeeee.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +40,15 @@
 		3D1B9A28250F3FC200FBC3C4 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 		3D1B9A2A250F3FC900FBC3C4 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		3D1B9A30250F42E300FBC3C4 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		3D1B9A32250F460500FBC3C4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3D1B9A34250F460C00FBC3C4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3D1B9A38250F476600FBC3C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3D1B9A3A250F55B400FBC3C4 /* Vridgeeeee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vridgeeeee.entitlements; sourceTree = "<group>"; };
+		3D1B9A3B250F56BE00FBC3C4 /* Sharing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sharing.swift; sourceTree = "<group>"; };
+		3D1B9A3D250F62A100FBC3C4 /* AppleLoginDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginDetailViewController.swift; sourceTree = "<group>"; };
+		3D1B9A3F250F72D200FBC3C4 /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		3D1B9A412510908400FBC3C4 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		3D1B9A472510BC1B00FBC3C4 /* NickNameCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickNameCheck.swift; sourceTree = "<group>"; };
 		5C2662ED045C5CE97D0E176C /* Pods_Vridgeeeee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vridgeeeee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FC7E7A3C6410BBC26FF70C /* Pods-Vridgeeeee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vridgeeeee.release.xcconfig"; path = "Target Support Files/Pods-Vridgeeeee/Pods-Vridgeeeee.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,14 +94,16 @@
 		3D1B9A13250F3DDB00FBC3C4 /* Vridgeeeee */ = {
 			isa = PBXGroup;
 			children = (
+				3D1B9A3A250F55B400FBC3C4 /* Vridgeeeee.entitlements */,
 				3D1B9A14250F3DDB00FBC3C4 /* AppDelegate.swift */,
 				3D1B9A16250F3DDB00FBC3C4 /* SceneDelegate.swift */,
-				3D1B9A2F250F42C900FBC3C4 /* Utils */,
 				3D1B9A2D250F428F00FBC3C4 /* Model */,
 				3D1B9A2C250F41EC00FBC3C4 /* Controllers */,
-				3D1B9A1A250F3DDB00FBC3C4 /* Main.storyboard */,
+				3D1B9A2F250F42C900FBC3C4 /* Utils */,
 				3D1B9A1D250F3DDD00FBC3C4 /* Assets.xcassets */,
+				3D1B9A1A250F3DDB00FBC3C4 /* Main.storyboard */,
 				3D1B9A1F250F3DDD00FBC3C4 /* LaunchScreen.storyboard */,
+				3D1B9A38250F476600FBC3C4 /* GoogleService-Info.plist */,
 				3D1B9A22250F3DDD00FBC3C4 /* Info.plist */,
 			);
 			path = Vridgeeeee;
@@ -96,6 +115,10 @@
 				3D1B9A18250F3DDB00FBC3C4 /* HomeViewController.swift */,
 				3D1B9A28250F3FC200FBC3C4 /* RankingViewController.swift */,
 				3D1B9A2A250F3FC900FBC3C4 /* MyPageViewController.swift */,
+				3D1B9A32250F460500FBC3C4 /* LoginViewController.swift */,
+				3D1B9A3D250F62A100FBC3C4 /* AppleLoginDetailViewController.swift */,
+				3D1B9A34250F460C00FBC3C4 /* SignUpViewController.swift */,
+				3D1B9A412510908400FBC3C4 /* PostViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -103,6 +126,9 @@
 		3D1B9A2D250F428F00FBC3C4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3D1B9A3B250F56BE00FBC3C4 /* Sharing.swift */,
+				3D1B9A3F250F72D200FBC3C4 /* UserDataModel.swift */,
+				3D1B9A472510BC1B00FBC3C4 /* NickNameCheck.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D1B9A21250F3DDD00FBC3C4 /* LaunchScreen.storyboard in Resources */,
+				3D1B9A39250F476600FBC3C4 /* GoogleService-Info.plist in Resources */,
 				3D1B9A1E250F3DDD00FBC3C4 /* Assets.xcassets in Resources */,
 				3D1B9A1C250F3DDB00FBC3C4 /* Main.storyboard in Resources */,
 			);
@@ -239,11 +266,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D1B9A422510908400FBC3C4 /* PostViewController.swift in Sources */,
+				3D1B9A33250F460500FBC3C4 /* LoginViewController.swift in Sources */,
 				3D1B9A2B250F3FC900FBC3C4 /* MyPageViewController.swift in Sources */,
+				3D1B9A35250F460C00FBC3C4 /* SignUpViewController.swift in Sources */,
 				3D1B9A19250F3DDB00FBC3C4 /* HomeViewController.swift in Sources */,
 				3D1B9A15250F3DDB00FBC3C4 /* AppDelegate.swift in Sources */,
 				3D1B9A31250F42E300FBC3C4 /* Extension.swift in Sources */,
 				3D1B9A17250F3DDB00FBC3C4 /* SceneDelegate.swift in Sources */,
+				3D1B9A3C250F56BE00FBC3C4 /* Sharing.swift in Sources */,
+				3D1B9A3E250F62A100FBC3C4 /* AppleLoginDetailViewController.swift in Sources */,
+				3D1B9A482510BC1B00FBC3C4 /* NickNameCheck.swift in Sources */,
+				3D1B9A40250F72D200FBC3C4 /* UserDataModel.swift in Sources */,
 				3D1B9A29250F3FC200FBC3C4 /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +423,7 @@
 			baseConfigurationReference = 3ADA041CA9B2F9F80D7AA860 /* Pods-Vridgeeeee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Vridgeeeee/Vridgeeeee.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YAPL3Q6FM;
 				INFOPLIST_FILE = Vridgeeeee/Info.plist;
@@ -408,6 +443,7 @@
 			baseConfigurationReference = 67FC7E7A3C6410BBC26FF70C /* Pods-Vridgeeeee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Vridgeeeee/Vridgeeeee.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YAPL3Q6FM;
 				INFOPLIST_FILE = Vridgeeeee/Info.plist;
